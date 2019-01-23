@@ -1,3 +1,49 @@
+[0, 15, 87]: 2019-01-22
+  - fix problem with empty lists and the code to reinsert merge keys (reported via email 
+     by Zaloo)
+
+[0, 15, 87]: 2019-01-22
+  - fix problem with empty lists and the code to reinsert merge keys (reported via email 
+    by Zaloo)
+
+[0, 15, 86]: 2019-01-16
+  - reinsert merge key in its old position (reported by grumbler on
+    <Stackoverflow <https://stackoverflow.com/a/54206512/1307905>`__)
+  - fix for issue with non-ASCII anchor names (reported and fix
+    provided by Dandaleon Flux via email)
+  - fix for issue when parsing flow mapping value starting with colon (in pure Python only)
+    (reported by `FichteFoll <https://bitbucket.org/FichteFoll/>`__)
+
+[0, 15, 86]: 2019-01-15
+  - reinsert merge key in its old position (reported by grumbler on
+    <Stackoverflow <https://stackoverflow.com/a/54206512/1307905>`__)
+  - fix for issue with non-ASCII anchor names (reported and fix
+    provided by Dandaleon Flux via email)
+  - fix for issue when parsing flow mapping value starting with colon (in pure Python only)
+    (reported by `FichteFoll <https://bitbucket.org/FichteFoll/>`__)
+
+[0, 15, 85]: 2019-01-08
+  - the types used by `SafeConstructor` for mappings and sequences can
+    now by set by assigning to `XXXConstructor.yaml_base_dict_type`
+    (and `..._list_type`), preventing the need to copy two methods
+    with 50+ lines that had `var = {}` hardcoded.  (Implemented to
+    help solve an feature request by `Anthony Sottile
+    <https://bitbucket.org/asottile/>`__ in an easier way)
+
+[0, 15, 84]: 2019-01-07
+  - fix for `CommentedMap.copy()` not returning `CommentedMap`, let alone copying comments etc.
+    (reported by `Anthony Sottile <https://bitbucket.org/asottile/>`__)
+
+[0, 15, 83]: 2019-01-02
+  - fix for bug in roundtripping aliases used as key (reported via email by Zaloo)
+
+[0, 15, 82]: 2018-12-28
+  - anchors and aliases on scalar int, float, string and bool are now preserved. Anchors
+    do not need a referring alias for these (reported by 
+    `Alex Harvey <https://bitbucket.org/alexharv074/>`__)
+  - anchors no longer lost on tagged objects when roundtripping (reported by `Zaloo 
+    <https://bitbucket.org/zaloo/>`__)
+
 [0, 15, 81]: 2018-12-06
  - fix issue saving methods of metaclass derived classes (reported and fix provided
    by `Douglas Raillard <https://bitbucket.org/DouglasRaillard/>`__)
