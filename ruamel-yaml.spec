@@ -4,7 +4,7 @@
 #
 Name     : ruamel-yaml
 Version  : 0.15.91
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/ad/0d/c9f94a393b9b8825accca0bc17afb6cbb7719e8601d26d06cbf7b21abfa3/ruamel.yaml-0.15.91.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ad/0d/c9f94a393b9b8825accca0bc17afb6cbb7719e8601d26d06cbf7b21abfa3/ruamel.yaml-0.15.91.tar.gz
 Summary  : ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
