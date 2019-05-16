@@ -1,5 +1,5 @@
 PKG_NAME := ruamel-yaml
-URL = https://files.pythonhosted.org/packages/24/f1/1adcf396711d3c9c30b67a5c850cfb64afbccd41d7d85adf87732e4b156f/ruamel.yaml-0.15.94.tar.gz
+URL = https://files.pythonhosted.org/packages/d3/50/b4b1783066a685091d0fd1ba9530f223a71abf911cda7a62a8649ea89b14/ruamel.yaml-0.15.95.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
