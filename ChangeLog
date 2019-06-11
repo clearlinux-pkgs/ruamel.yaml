@@ -1,3 +1,61 @@
+[0, 15, 97]: 2019-06-06
+  - regenerate ext/_ruamel_yaml.c with Cython version 0.29.10, needed for
+    Python 3.8.0b1
+  - regenerate ext/_ruamel_yaml.c with Cython version 0.29.9, needed for
+    Python 3.8.0a4 (reported by `Anthony Sottile
+    <https://bitbucket.org/%7B569cc8ea-0d9e-41cb-94a4-19ea517324df%7D/>`__)
+
+[0, 15, 96]: 2019-05-16
+  - fix failure to indent comments on round-trip anchored block style
+    scalars in block sequence (reported by `William Kimball
+    <https://bitbucket.org/%7Bba35ed20-4bb0-46f8-bb5d-c29871e86a22%7D/>`__)
+
+[0, 15, 95]: 2019-05-16
+  - fix failure to round-trip anchored scalars in block sequence
+    (reported by `William Kimball
+    <https://bitbucket.org/%7Bba35ed20-4bb0-46f8-bb5d-c29871e86a22%7D/>`__)
+  - wheel files for Python 3.4 no longer provided (`Python 3.4 EOL 2019-03-18
+    <https://www.python.org/dev/peps/pep-0429/>`__)
+
+[0, 15, 94]: 2019-04-23
+  - fix missing line-break after end-of-file comments not ending in
+    line-break (reported by `Philip Thompson
+    <https://bitbucket.org/%7Be42ba205-0876-4151-bcbe-ccaea5bd13ce%7D/>`__)
+
+[0, 15, 93]: 2019-04-21
+  - fix failure to parse empty implicit flow mapping key
+  - in YAML 1.1 plains scalars `y`, 'n', `Y`, and 'N' are now
+    correctly recognised as booleans and such strings dumped quoted
+    (reported by `Marcel Bollmann
+    <https://bitbucket.org/%7Bd8850921-9145-4ad0-ac30-64c3bd9b036d%7D/>`__)
+
+[0, 15, 93]: 2019-04-21
+  - fix failure to parse empty implicit flow mapping key
+  - in YAML 1.1 plains scalars `y`, 'n', `Y`, and 'N' are now
+    correctly recognised as booleans and such strings dumped quoted
+    (reported by `Marcel Bollmann
+    <https://bitbucket.org/%7Bd8850921-9145-4ad0-ac30-64c3bd9b036d%7D/>`__)
+
+[0, 15, 92]: 2019-04-16
+  - fix failure to parse empty implicit block mapping key (reported by 
+    `Nolan W <https://bitbucket.org/i2labs/>`__)
+
+[0, 15, 91]: 2019-04-05
+  - allowing duplicate keys would not work for merge keys (reported by mamacdon on
+    `StackOverflow <https://stackoverflow.com/questions/55540686/>`__ 
+
+[0, 15, 91]: 2019-04-05
+  - allowing duplicate keys would not work for merge keys (reported by mamacdon on
+    `StackOverflow <https://stackoverflow.com/questions/55540686/>`__ 
+
+[0, 15, 90]: 2019-04-04
+  - fix issue with updating `CommentedMap` from list of tuples (reported by 
+    `Peter Henry <https://bitbucket.org/mosbasik/>`__)
+
+[0, 15, 90]: 2019-04-04
+  - fix issue with updating `CommentedMap` from list of tuples (reported by 
+    `Peter Henry <https://bitbucket.org/mosbasik/>`__)
+
 [0, 15, 89]: 2019-02-27
   - fix for items with flow-mapping in block sequence output on single line
     (reported by `Zahari Dim <https://bitbucket.org/zahari_dim/>`__)
