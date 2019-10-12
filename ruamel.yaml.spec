@@ -4,7 +4,7 @@
 #
 Name     : ruamel.yaml
 Version  : 0.16.5
-Release  : 19
+Release  : 20
 URL      : https://files.pythonhosted.org/packages/de/76/cf97d739365eff258e2af0457a150bf2818f3eaa460328610eafeed0894a/ruamel.yaml-0.16.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/de/76/cf97d739365eff258e2af0457a150bf2818f3eaa460328610eafeed0894a/ruamel.yaml-0.16.5.tar.gz
 Summary  : ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
@@ -13,6 +13,7 @@ License  : MIT
 Requires: ruamel.yaml-license = %{version}-%{release}
 Requires: ruamel.yaml-python = %{version}-%{release}
 Requires: ruamel.yaml-python3 = %{version}-%{release}
+Requires: ruamel.yaml.clib
 BuildRequires : buildreq-distutils3
 
 %description
@@ -54,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1570909704
+export SOURCE_DATE_EPOCH=1570916002
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
